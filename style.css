@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to right, #87CEEB, #ffffff);
+  text-align: center;
+}
+
+/* Main container */
+.container {
+  margin-top: 120px;
+}
+
+/* Heading */
+h1 {
+  color: #1a1a1a;
+  font-size: 40px;
+}
+
+/* Paragraph */
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Luxury Button */
+.btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Hover effect */
+.btn:hover {
+  background: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* Back button special */
+.back {
+  background: #444;
+}
