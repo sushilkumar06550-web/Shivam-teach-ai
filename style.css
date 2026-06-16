@@ -1,49 +1,76 @@
 body {
   margin: 0;
-  font-family: Arial;
-  background: linear-gradient(to right, #87CEEB, #ffffff);
+  font-family: "Segoe UI", Arial;
+  background: linear-gradient(135deg, #e0f7ff, #ffffff);
   text-align: center;
 }
 
-/* Main container */
-.container {
+/* HERO SECTION */
+.hero {
   margin-top: 120px;
+  padding: 20px;
 }
 
-/* Heading */
+/* TITLE */
 h1 {
-  color: #1a1a1a;
   font-size: 40px;
+  color: #2b4c7e;
 }
 
-/* Paragraph */
+/* TEXT */
 p {
   font-size: 18px;
-  color: #333;
+  color: #4a4a4a;
 }
 
-/* Luxury Button */
+/* MAIN BUTTON */
 .btn {
   display: inline-block;
-  margin: 15px;
-  padding: 12px 25px;
-  background: black;
-  color: white;
+  margin-top: 25px;
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 40px;
   text-decoration: none;
-  border-radius: 30px;
-  font-weight: bold;
+  color: #2b4c7e;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #87ceeb;
+  backdrop-filter: blur(6px);
   transition: 0.3s;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-/* Hover effect */
+/* HOVER EFFECT */
 .btn:hover {
-  background: white;
-  color: black;
-  transform: scale(1.1);
+  transform: scale(1.08);
+  background: #87ceeb;
+  color: white;
 }
 
-/* Back button special */
-.back {
-  background: #444;
+/* SECOND BUTTON */
+.secondary {
+  margin-top: 40px;
+}
+
+/* CARD BOX */
+.card-box {
+  margin-top: 30px;
+}
+
+/* NOTES CARDS */
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  background: white;
+  border: 2px solid #d0ecff;
+  text-decoration: none;
+  color: #2b4c7e;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* CARD HOVER */
+.card:hover {
+  transform: translateY(-5px);
+  background: #e6f7ff;
 }
